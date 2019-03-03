@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Beautify It",
+  "version": "1.0",
+  "author":"Hritik Aggarwal",
+
+  "description": "Beautify any page and make it more readable and user friendly!",
+
+  "offline_enabled": true,
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "assets/logo.png",
+    "default_popup": "popup.html"
+  }
+}
